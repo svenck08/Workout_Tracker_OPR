@@ -30,108 +30,108 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.List_vaj = new System.Windows.Forms.TabPage();
-            this.stats_label = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lb_vaje = new System.Windows.Forms.TabPage();
+            this.lblStatus = new System.Windows.Forms.Label();
+            this.cmbIzbiraVaje = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
+            this.btnKoncajTrening = new System.Windows.Forms.Button();
+            this.btnPavzaNadaljuj = new System.Windows.Forms.Button();
+            this.btnZacniTrening = new System.Windows.Forms.Button();
+            this.lblCasTreninga = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.lablskupnivolumen = new System.Windows.Forms.Label();
+            this.numRpe = new System.Windows.Forms.NumericUpDown();
+            this.btnIzbrisiSet = new System.Windows.Forms.Button();
+            this.numPonovitve = new System.Windows.Forms.NumericUpDown();
+            this.lblSkupniVolumen = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnAddSet = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.dgvTrenutniSeti = new System.Windows.Forms.DataGridView();
+            this.btnDodajPotrdi = new System.Windows.Forms.Button();
+            this.numTeza = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.btnCalculateStats = new System.Windows.Forms.Button();
+            this.btnItbrisiPodatke = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Vaje = new System.Windows.Forms.Label();
-            this.btnaddvaja = new System.Windows.Forms.Button();
-            this.btnchangevaja = new System.Windows.Forms.Button();
-            this.btndeletevaja = new System.Windows.Forms.Button();
+            this.btnDodajVajo = new System.Windows.Forms.Button();
+            this.btnSpremeniVajo = new System.Windows.Forms.Button();
+            this.btnOdstraniVajo = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tabControl1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numRpe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPonovitve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTrenutniSeti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTeza)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.List_vaj);
+            this.tabControl1.Controls.Add(this.lb_vaje);
             this.tabControl1.Location = new System.Drawing.Point(66, 80);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(421, 188);
             this.tabControl1.TabIndex = 0;
             // 
-            // List_vaj
+            // lb_vaje
             // 
-            this.List_vaj.Location = new System.Drawing.Point(4, 22);
-            this.List_vaj.Name = "List_vaj";
-            this.List_vaj.Padding = new System.Windows.Forms.Padding(3);
-            this.List_vaj.Size = new System.Drawing.Size(413, 162);
-            this.List_vaj.TabIndex = 0;
-            this.List_vaj.Text = "List Vseh Vaj";
-            this.List_vaj.UseVisualStyleBackColor = true;
-            this.List_vaj.Click += new System.EventHandler(this.List_vaj_Click);
+            this.lb_vaje.Location = new System.Drawing.Point(4, 22);
+            this.lb_vaje.Name = "lb_vaje";
+            this.lb_vaje.Padding = new System.Windows.Forms.Padding(3);
+            this.lb_vaje.Size = new System.Drawing.Size(413, 162);
+            this.lb_vaje.TabIndex = 0;
+            this.lb_vaje.Text = "List Vseh Vaj";
+            this.lb_vaje.UseVisualStyleBackColor = true;
+            this.lb_vaje.Click += new System.EventHandler(this.List_vaj_Click);
             // 
-            // stats_label
+            // lblStatus
             // 
-            this.stats_label.AutoSize = true;
-            this.stats_label.Location = new System.Drawing.Point(67, 284);
-            this.stats_label.Name = "stats_label";
-            this.stats_label.Size = new System.Drawing.Size(70, 13);
-            this.stats_label.TabIndex = 1;
-            this.stats_label.Text = "Statusni label";
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(67, 284);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(70, 13);
+            this.lblStatus.TabIndex = 1;
+            this.lblStatus.Text = "Statusni label";
             // 
-            // comboBox1
+            // cmbIzbiraVaje
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 40);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.cmbIzbiraVaje.FormattingEnabled = true;
+            this.cmbIzbiraVaje.Location = new System.Drawing.Point(6, 40);
+            this.cmbIzbiraVaje.Name = "cmbIzbiraVaje";
+            this.cmbIzbiraVaje.Size = new System.Drawing.Size(121, 21);
+            this.cmbIzbiraVaje.TabIndex = 3;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.btnKoncajTrening);
+            this.groupBox1.Controls.Add(this.btnPavzaNadaljuj);
+            this.groupBox1.Controls.Add(this.btnZacniTrening);
+            this.groupBox1.Controls.Add(this.lblCasTreninga);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.numericUpDown3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.numericUpDown2);
-            this.groupBox1.Controls.Add(this.lablskupnivolumen);
+            this.groupBox1.Controls.Add(this.numRpe);
+            this.groupBox1.Controls.Add(this.btnIzbrisiSet);
+            this.groupBox1.Controls.Add(this.numPonovitve);
+            this.groupBox1.Controls.Add(this.lblSkupniVolumen);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.btnAddSet);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.dgvTrenutniSeti);
+            this.groupBox1.Controls.Add(this.btnDodajPotrdi);
+            this.groupBox1.Controls.Add(this.numTeza);
+            this.groupBox1.Controls.Add(this.cmbIzbiraVaje);
             this.groupBox1.Location = new System.Drawing.Point(66, 321);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(723, 342);
@@ -139,41 +139,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Trening";
             // 
-            // button5
+            // btnKoncajTrening
             // 
-            this.button5.Location = new System.Drawing.Point(543, 98);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 23);
-            this.button5.TabIndex = 20;
-            this.button5.Text = "Končaj trening";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnKoncajTrening.Location = new System.Drawing.Point(543, 98);
+            this.btnKoncajTrening.Name = "btnKoncajTrening";
+            this.btnKoncajTrening.Size = new System.Drawing.Size(100, 23);
+            this.btnKoncajTrening.TabIndex = 20;
+            this.btnKoncajTrening.Text = "Končaj trening";
+            this.btnKoncajTrening.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnPavzaNadaljuj
             // 
-            this.button4.Location = new System.Drawing.Point(543, 68);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Pavza / Nadaljuj";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnPavzaNadaljuj.Location = new System.Drawing.Point(543, 68);
+            this.btnPavzaNadaljuj.Name = "btnPavzaNadaljuj";
+            this.btnPavzaNadaljuj.Size = new System.Drawing.Size(100, 23);
+            this.btnPavzaNadaljuj.TabIndex = 19;
+            this.btnPavzaNadaljuj.Text = "Pavza / Nadaljuj";
+            this.btnPavzaNadaljuj.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnZacniTrening
             // 
-            this.button3.Location = new System.Drawing.Point(543, 38);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 23);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Začni trening";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnZacniTrening.Location = new System.Drawing.Point(543, 38);
+            this.btnZacniTrening.Name = "btnZacniTrening";
+            this.btnZacniTrening.Size = new System.Drawing.Size(100, 23);
+            this.btnZacniTrening.TabIndex = 18;
+            this.btnZacniTrening.Text = "Začni trening";
+            this.btnZacniTrening.UseVisualStyleBackColor = true;
             // 
-            // label11
+            // lblCasTreninga
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(130, 95);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "label11";
+            this.lblCasTreninga.AutoSize = true;
+            this.lblCasTreninga.Location = new System.Drawing.Point(130, 95);
+            this.lblCasTreninga.Name = "lblCasTreninga";
+            this.lblCasTreninga.Size = new System.Drawing.Size(41, 13);
+            this.lblCasTreninga.TabIndex = 17;
+            this.lblCasTreninga.Text = "label11";
             // 
             // label10
             // 
@@ -229,67 +229,67 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Izbira RPE (6-10)";
             // 
-            // numericUpDown3
+            // numRpe
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(269, 93);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
+            this.numRpe.Location = new System.Drawing.Point(269, 93);
+            this.numRpe.Maximum = new decimal(new int[] {
             10,
             0,
             0,
             0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
+            this.numRpe.Minimum = new decimal(new int[] {
             6,
             0,
             0,
             0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown3.TabIndex = 10;
-            this.numericUpDown3.Value = new decimal(new int[] {
+            this.numRpe.Name = "numRpe";
+            this.numRpe.Size = new System.Drawing.Size(120, 20);
+            this.numRpe.TabIndex = 10;
+            this.numRpe.Value = new decimal(new int[] {
             6,
             0,
             0,
             0});
             // 
-            // button1
+            // btnIzbrisiSet
             // 
-            this.button1.Location = new System.Drawing.Point(395, 64);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "izbriši";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnIzbrisiSet.Location = new System.Drawing.Point(395, 64);
+            this.btnIzbrisiSet.Name = "btnIzbrisiSet";
+            this.btnIzbrisiSet.Size = new System.Drawing.Size(100, 23);
+            this.btnIzbrisiSet.TabIndex = 9;
+            this.btnIzbrisiSet.Text = "izbriši";
+            this.btnIzbrisiSet.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown2
+            // numPonovitve
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(269, 41);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
+            this.numPonovitve.Location = new System.Drawing.Point(269, 41);
+            this.numPonovitve.Maximum = new decimal(new int[] {
             60,
             0,
             0,
             0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
+            this.numPonovitve.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown2.TabIndex = 8;
-            this.numericUpDown2.Value = new decimal(new int[] {
+            this.numPonovitve.Name = "numPonovitve";
+            this.numPonovitve.Size = new System.Drawing.Size(120, 20);
+            this.numPonovitve.TabIndex = 8;
+            this.numPonovitve.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // lablskupnivolumen
+            // lblSkupniVolumen
             // 
-            this.lablskupnivolumen.AutoSize = true;
-            this.lablskupnivolumen.Location = new System.Drawing.Point(7, 95);
-            this.lablskupnivolumen.Name = "lablskupnivolumen";
-            this.lablskupnivolumen.Size = new System.Drawing.Size(35, 13);
-            this.lablskupnivolumen.TabIndex = 7;
-            this.lablskupnivolumen.Text = "label1";
+            this.lblSkupniVolumen.AutoSize = true;
+            this.lblSkupniVolumen.Location = new System.Drawing.Point(7, 95);
+            this.lblSkupniVolumen.Name = "lblSkupniVolumen";
+            this.lblSkupniVolumen.Size = new System.Drawing.Size(35, 13);
+            this.lblSkupniVolumen.TabIndex = 7;
+            this.lblSkupniVolumen.Text = "label1";
             // 
             // label2
             // 
@@ -300,39 +300,39 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Skupni volumen vaj";
             // 
-            // dataGridView1
+            // dgvTrenutniSeti
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 139);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(707, 190);
-            this.dataGridView1.TabIndex = 5;
+            this.dgvTrenutniSeti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTrenutniSeti.Location = new System.Drawing.Point(10, 139);
+            this.dgvTrenutniSeti.Name = "dgvTrenutniSeti";
+            this.dgvTrenutniSeti.Size = new System.Drawing.Size(707, 190);
+            this.dgvTrenutniSeti.TabIndex = 5;
             // 
-            // btnAddSet
+            // btnDodajPotrdi
             // 
-            this.btnAddSet.Location = new System.Drawing.Point(395, 38);
-            this.btnAddSet.Name = "btnAddSet";
-            this.btnAddSet.Size = new System.Drawing.Size(100, 23);
-            this.btnAddSet.TabIndex = 4;
-            this.btnAddSet.Text = "Dodaj / Potrdi";
-            this.btnAddSet.UseVisualStyleBackColor = true;
+            this.btnDodajPotrdi.Location = new System.Drawing.Point(395, 38);
+            this.btnDodajPotrdi.Name = "btnDodajPotrdi";
+            this.btnDodajPotrdi.Size = new System.Drawing.Size(100, 23);
+            this.btnDodajPotrdi.TabIndex = 4;
+            this.btnDodajPotrdi.Text = "Dodaj / Potrdi";
+            this.btnDodajPotrdi.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // numTeza
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(133, 41);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.numTeza.Location = new System.Drawing.Point(133, 41);
+            this.numTeza.Maximum = new decimal(new int[] {
             250,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 0;
+            this.numTeza.Name = "numTeza";
+            this.numTeza.Size = new System.Drawing.Size(120, 20);
+            this.numTeza.TabIndex = 0;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView2);
-            this.groupBox2.Controls.Add(this.btnCalculateStats);
+            this.groupBox2.Controls.Add(this.btnItbrisiPodatke);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
@@ -352,14 +352,14 @@
             this.dataGridView2.Size = new System.Drawing.Size(470, 231);
             this.dataGridView2.TabIndex = 21;
             // 
-            // btnCalculateStats
+            // btnItbrisiPodatke
             // 
-            this.btnCalculateStats.Location = new System.Drawing.Point(362, 124);
-            this.btnCalculateStats.Name = "btnCalculateStats";
-            this.btnCalculateStats.Size = new System.Drawing.Size(100, 23);
-            this.btnCalculateStats.TabIndex = 4;
-            this.btnCalculateStats.Text = "Izbriši podatke";
-            this.btnCalculateStats.UseVisualStyleBackColor = true;
+            this.btnItbrisiPodatke.Location = new System.Drawing.Point(362, 124);
+            this.btnItbrisiPodatke.Name = "btnItbrisiPodatke";
+            this.btnItbrisiPodatke.Size = new System.Drawing.Size(100, 23);
+            this.btnItbrisiPodatke.TabIndex = 4;
+            this.btnItbrisiPodatke.Text = "Izbriši podatke";
+            this.btnItbrisiPodatke.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -407,55 +407,55 @@
             this.Vaje.TabIndex = 6;
             this.Vaje.Text = "Vaje";
             // 
-            // btnaddvaja
+            // btnDodajVajo
             // 
-            this.btnaddvaja.Location = new System.Drawing.Point(504, 102);
-            this.btnaddvaja.Name = "btnaddvaja";
-            this.btnaddvaja.Size = new System.Drawing.Size(98, 23);
-            this.btnaddvaja.TabIndex = 7;
-            this.btnaddvaja.Text = "Dodaj Vajo";
-            this.btnaddvaja.UseVisualStyleBackColor = true;
+            this.btnDodajVajo.Location = new System.Drawing.Point(504, 102);
+            this.btnDodajVajo.Name = "btnDodajVajo";
+            this.btnDodajVajo.Size = new System.Drawing.Size(98, 23);
+            this.btnDodajVajo.TabIndex = 7;
+            this.btnDodajVajo.Text = "Dodaj Vajo";
+            this.btnDodajVajo.UseVisualStyleBackColor = true;
             // 
-            // btnchangevaja
+            // btnSpremeniVajo
             // 
-            this.btnchangevaja.Location = new System.Drawing.Point(504, 171);
-            this.btnchangevaja.Name = "btnchangevaja";
-            this.btnchangevaja.Size = new System.Drawing.Size(98, 23);
-            this.btnchangevaja.TabIndex = 8;
-            this.btnchangevaja.Text = "Spremeni Vajo";
-            this.btnchangevaja.UseVisualStyleBackColor = true;
+            this.btnSpremeniVajo.Location = new System.Drawing.Point(504, 171);
+            this.btnSpremeniVajo.Name = "btnSpremeniVajo";
+            this.btnSpremeniVajo.Size = new System.Drawing.Size(98, 23);
+            this.btnSpremeniVajo.TabIndex = 8;
+            this.btnSpremeniVajo.Text = "Spremeni Vajo";
+            this.btnSpremeniVajo.UseVisualStyleBackColor = true;
             // 
-            // btndeletevaja
+            // btnOdstraniVajo
             // 
-            this.btndeletevaja.Location = new System.Drawing.Point(504, 241);
-            this.btndeletevaja.Name = "btndeletevaja";
-            this.btndeletevaja.Size = new System.Drawing.Size(98, 23);
-            this.btndeletevaja.TabIndex = 9;
-            this.btndeletevaja.Text = "Odstrani Vajo";
-            this.btndeletevaja.UseVisualStyleBackColor = true;
+            this.btnOdstraniVajo.Location = new System.Drawing.Point(504, 241);
+            this.btnOdstraniVajo.Name = "btnOdstraniVajo";
+            this.btnOdstraniVajo.Size = new System.Drawing.Size(98, 23);
+            this.btnOdstraniVajo.TabIndex = 9;
+            this.btnOdstraniVajo.Text = "Odstrani Vajo";
+            this.btnOdstraniVajo.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1371, 710);
-            this.Controls.Add(this.btndeletevaja);
-            this.Controls.Add(this.btnchangevaja);
-            this.Controls.Add(this.btnaddvaja);
+            this.Controls.Add(this.btnOdstraniVajo);
+            this.Controls.Add(this.btnSpremeniVajo);
+            this.Controls.Add(this.btnDodajVajo);
             this.Controls.Add(this.Vaje);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.stats_label);
+            this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numRpe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPonovitve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTrenutniSeti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTeza)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -467,38 +467,38 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage List_vaj;
-        private System.Windows.Forms.Label stats_label;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TabPage lb_vaje;
+        private System.Windows.Forms.Label lblStatus;
+        private System.Windows.Forms.ComboBox cmbIzbiraVaje;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnAddSet;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.DataGridView dgvTrenutniSeti;
+        private System.Windows.Forms.Button btnDodajPotrdi;
+        private System.Windows.Forms.NumericUpDown numTeza;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btnCalculateStats;
+        private System.Windows.Forms.Button btnItbrisiPodatke;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lablskupnivolumen;
+        private System.Windows.Forms.Label lblSkupniVolumen;
         private System.Windows.Forms.Label Vaje;
-        private System.Windows.Forms.Button btnaddvaja;
-        private System.Windows.Forms.Button btnchangevaja;
-        private System.Windows.Forms.Button btndeletevaja;
+        private System.Windows.Forms.Button btnDodajVajo;
+        private System.Windows.Forms.Button btnSpremeniVajo;
+        private System.Windows.Forms.Button btnOdstraniVajo;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.NumericUpDown numRpe;
+        private System.Windows.Forms.Button btnIzbrisiSet;
+        private System.Windows.Forms.NumericUpDown numPonovitve;
+        private System.Windows.Forms.Button btnKoncajTrening;
+        private System.Windows.Forms.Button btnPavzaNadaljuj;
+        private System.Windows.Forms.Button btnZacniTrening;
+        private System.Windows.Forms.Label lblCasTreninga;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridView dataGridView2;
     }
