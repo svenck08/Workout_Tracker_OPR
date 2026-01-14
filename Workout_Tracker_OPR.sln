@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workout_Tracker_OPR", "Workout_Tracker_OPR.csproj", "{99EE69E5-1586-4856-ABCC-16BB1A24FC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form2_WorkoutTracker", "..\Form2_WorkoutTracker\Form2_WorkoutTracker.csproj", "{2F2CD0EF-E6A6-4F63-B6CF-2917D734BDFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99EE69E5-1586-4856-ABCC-16BB1A24FC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EE69E5-1586-4856-ABCC-16BB1A24FC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EE69E5-1586-4856-ABCC-16BB1A24FC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EE69E5-1586-4856-ABCC-16BB1A24FC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2CD0EF-E6A6-4F63-B6CF-2917D734BDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2CD0EF-E6A6-4F63-B6CF-2917D734BDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2CD0EF-E6A6-4F63-B6CF-2917D734BDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2CD0EF-E6A6-4F63-B6CF-2917D734BDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7686BD01-77B8-4A62-940A-83A5848BC5DC}
+	EndGlobalSection
+EndGlobal
