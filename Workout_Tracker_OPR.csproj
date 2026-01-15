@@ -79,5 +79,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Form2_WorkoutTracker\Form2_WorkoutTracker.csproj">
+      <Project>{2f2cd0ef-e6a6-4f63-b6cf-2917d734bdfe}</Project>
+      <Name>Form2_WorkoutTracker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkoutTracker_library\WorkoutTracker_library.csproj">
+      <Project>{0838829f-4800-4db2-992c-e2f8631451a1}</Project>
+      <Name>WorkoutTracker_library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
